@@ -65,8 +65,6 @@ Docker-compose.yml
 .vscode/
 *.code-workspace
 
-# Environment variables
-.env
 
 # MacOS system files
 .DS_Store
