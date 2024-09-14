@@ -6,10 +6,6 @@ build/
 dist/
 *.log
 
-# Environment variables
-.env
-.env.* # For example, .env.local, .env.development
-
 # TypeScript
 *.tsbuildinfo
 
