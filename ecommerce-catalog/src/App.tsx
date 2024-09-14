@@ -5,13 +5,10 @@ import AppRoutes from "./routes";
 import { AuthProvider } from "./context/AuthContext";
 import { Provider } from "react-redux";
 import store from "./store/store";
-// import dotenv from 'dotenv';
 
 const theme = createTheme();
 
 function App() {
-  // dotenv.config();
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

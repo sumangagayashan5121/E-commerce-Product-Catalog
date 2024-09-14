@@ -1,12 +1,14 @@
 import request from "supertest";
 import app from "../app";
+import { users } from "../data/users";
 
 let token: string;
 
 beforeAll(async () => {
+  const user = users[0];
   const response = await request(app).post("/api/auth/login").send({
-    email: "test@example.com",
-    password: "passwordsumanga123",
+    email: user.email,
+    password: user.password,
   });
 
   token = response.body.data.token;

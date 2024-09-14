@@ -34,7 +34,6 @@ const ProductDetail = () => {
           <CardMedia
             component="img"
             image={placeholderImage}
-            // alt={product?.name}
             sx={{
               width: "100%",
               height: "auto",
